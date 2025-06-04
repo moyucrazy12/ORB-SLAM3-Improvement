@@ -12,12 +12,12 @@ The goal is to improve **ORB-SLAM3** by integrating **dynamic object detection**
 -  **CNN Training**: Developing a **custom convolutional neural network** to detect **dynamic objects only**, trained on both **KITTI** and **TUM-VI** datasets.
 -  Focused on monocular mode, where robustness to dynamic content is most critical.
 
-## 📦 Datasets Used
+## Datasets Used
 
-- 📸 [TUM-VI Dataset]
-- 🚗 [KITTI Visual Odometry]
+- [TUM-VI Dataset]
+- [KITTI Visual Odometry]
 
-## 🛠️ Tools & Frameworks
+## Tools & Frameworks
 
 - Python, C++
 - PyTorch
