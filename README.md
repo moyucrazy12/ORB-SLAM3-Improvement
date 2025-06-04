@@ -1,4 +1,31 @@
-# ORB-SLAM3
+# ORB-SLAM3 Monocular Enhancement – LXAI Coaching Project
+
+This repository contains my research project developed as part of the **LatinX in AI (LXAI) Coaching Program**, focused on enhancing **monocular SLAM robustness** in dynamic environments.
+
+## Project Overview
+
+The goal is to improve **ORB-SLAM3** by integrating **dynamic object detection** and **feature filtering**, enabling more reliable SLAM in scenes with moving elements (e.g., people, vehicles).
+
+### Key Contributions
+
+-  **YOLOv8 Integration**: Applied real-time object detection to **remove dynamic features** (e.g., people) from the SLAM pipeline using the **TUM-VI dataset**.
+-  **CNN Training**: Developing a **custom convolutional neural network** to detect **dynamic objects only**, trained on both **KITTI** and **TUM-VI** datasets.
+-  Focused on monocular mode, where robustness to dynamic content is most critical.
+
+## 📦 Datasets Used
+
+- 📸 [TUM-VI Dataset]
+- 🚗 [KITTI Visual Odometry]
+
+## 🛠️ Tools & Frameworks
+
+- Python, C++
+- PyTorch
+- YOLOv8 (Ultralytics)
+- OpenCV
+- ORB-SLAM3
+
+---
 
 ### V1.0, December 22th, 2021
 **Authors:** Carlos Campos, Richard Elvira, Juan J. Gómez Rodríguez, [José M. M. Montiel](http://webdiis.unizar.es/~josemari/), [Juan D. Tardos](http://webdiis.unizar.es/~jdtardos/).
